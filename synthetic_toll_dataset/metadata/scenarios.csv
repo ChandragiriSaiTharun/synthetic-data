@@ -1,0 +1,6 @@
+scenario_id,scenario_key,scenario_name,duration_sec,fps,random_seed,target_lane_1,target_lane_2,target_lane_3,total_scheduled,total_spawned,total_completed,max_queue_lane_1,max_queue_lane_2,max_queue_lane_3,video_file,ground_truth_file,annotations_file
+1,scenario_01_low,Scenario 1 — Low Traffic,30.0,30,42,5,4,6,15,15,6,1,2,2,videos\scenario_01_low\traffic.mp4,ground_truth\scenario_01.csv,annotations\scenario_01.csv
+2,scenario_02_medium,Scenario 2 — Medium Traffic,30.0,30,42,12,18,10,40,26,8,3,5,3,videos\scenario_02_medium\traffic.mp4,ground_truth\scenario_02.csv,annotations\scenario_02.csv
+3,scenario_03_heavy,Scenario 3 — Heavy Traffic,30.0,30,42,25,18,30,73,25,6,4,5,5,videos\scenario_03_heavy\traffic.mp4,ground_truth\scenario_03.csv,annotations\scenario_03.csv
+4,scenario_04_lane2_congestion,Scenario 4 — Lane 2 Congestion,10.0,30,42,8,30,10,48,12,0,1,2,1,videos\scenario_04_lane2_congestion\traffic.mp4,ground_truth\scenario_04.csv,annotations\scenario_04.csv
+5,scenario_05_balanced,Scenario 5 — Balanced Traffic,30.0,30,42,15,14,16,45,25,9,2,4,4,videos\scenario_05_balanced\traffic.mp4,ground_truth\scenario_05.csv,annotations\scenario_05.csv

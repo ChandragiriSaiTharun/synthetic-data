@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Python distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs and code editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large neural network model weights (downloaded on-demand via ultralytics)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Temporary debug images & development scratch files
+scratch/
+debug_*.png
+debug_*.jpg
+check_orient_*.png
+rot_test_*.jpg
+test_scale_*.png
+sample_video_*.jpg
+crop_*.png
+v9_crop.png
+clean_grey_car.png
